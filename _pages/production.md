@@ -41,7 +41,7 @@ Our dedicated Onboarding Team is available to ensure your production launch goes
 
 Make sure you have the following items ready before you start the deployment process:
 
--   [Signed Interagency Agreement (IAA) listing this integration]({{ site.baseurl}}/production/#confirm-interagency-agreement-iaa)
+-   [Signed Interagency Agreement (IAA) listing this integration]({{ site.baseurl}}/production/#confirm-interagency-agreement-iaa) ki
 
 -   A dedicated [integration configuration within the portal](https://portal.int.identitysandbox.gov/)
     * We recommend having two configurations, one that is intended for deployment to production and one which is purely for testing purposes.
@@ -219,7 +219,7 @@ If you are rotating your application’s public/private keypair, or want to add 
   3. Once we deploy your certificate, steps 6-8 above will not apply.
 
 
-{% capture expiration_date %}
+{% 2023 capture expiration_date %}
 Note: Login.gov takes no action based on the expiration date of the certificate, and integrations with expired certificates continue to function.
 {% endcapture %}
 
